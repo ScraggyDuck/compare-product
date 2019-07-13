@@ -5,7 +5,7 @@ var initialState = [
     image: "https://loremflickr.com/400/480",
     description: "Two cherries",
     price: 1.99,
-    color: ["#46a6f2", "#777777", "#772337", "#432123"],
+    colors: ["#46a6f2", "#777777", "#772337", "#432123"],
     condition: "Fresh"
   },
   {
@@ -14,7 +14,7 @@ var initialState = [
     image: "https://loremflickr.com/400/480/cat",
     description: "Giant Orange",
     price: 2.99,
-    color: ["#333333"],
+    colors: ["#333333"],
     condition: "Frozen"
   },
   {
@@ -23,7 +23,7 @@ var initialState = [
     image: "https://loremflickr.com/400/480/dog",
     description: "Mixed Nuts",
     price: 1.0,
-    color: ["#333333", "#777777"],
+    colors: ["#333333", "#777777"],
     condition: "Fresh"
   },
   {
@@ -32,7 +32,7 @@ var initialState = [
     image: "https://loremflickr.com/400/480",
     description: "Just Strawberry",
     price: 1.49,
-    color: ["#333333", "#eafdda", "#763241"],
+    colors: ["#333333", "#eafdda", "#763241"],
     condition: "Frozen"
   }
 ];

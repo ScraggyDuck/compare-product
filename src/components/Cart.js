@@ -13,11 +13,11 @@ class Cart extends Component {
             <ListGroup.Item>${product.price}</ListGroup.Item>
             <ListGroup.Item className="d-flex justify-content-center">
               {" "}
-              {product.color.map(item => (
+              {product.colors.map(color => (
                 <div
                   className="productColor"
                   style={{
-                    backgroundColor: `${item}`
+                    backgroundColor: `${color}`
                   }}
                 />
               ))}
